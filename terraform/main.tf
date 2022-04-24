@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "project-rafi-007"
+    bucket = "upgrad-gemhar"
     key    = "path/state"
     region = "us-east-1"
   }

@@ -8,7 +8,7 @@ variable "instance_type" {
 variable "instance_keypair" {
   description = "ssh key pair"
   type        = string
-  default     = "rafi"
+  default     = "RHEL"
 }
 
 variable "private_instance_count" {
